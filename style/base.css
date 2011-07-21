@@ -19,3 +19,9 @@ header nav {
 	background: rgba(0,0,0,0.25);
 	border-top: 2px solid rgba(0,0,0,0.1);
 }
+header hgroup {
+	width: 100%;
+	bottom: 50%;
+	position: fixed;
+	text-align: center;
+}
