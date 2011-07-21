@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+html, body { width: 100%; height: 100%; }
 body {
-	background: #e0e7ee;
+	margin: auto;
+	background: #c0c7cf;
+}
+header {
+	width: 100%;
+	height: 100%;
+	background: -moz-radial-gradient(center, cover, #f8f8f8 0%, #667077 100%);
+	background: -webkit-radial-gradient(center, cover, #f8f8f8 0%, #667077 100%);
 }
