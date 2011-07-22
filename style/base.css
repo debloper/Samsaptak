@@ -11,12 +11,15 @@ body {
 	margin: auto;
 	background: #c0c7cf;
 }
-header {
+header, footer {
 	width: 100%;
 	height: 100%;
+	position: fixed;
 	background: -moz-radial-gradient(center, cover, #f8f8f8 0%, #667077 100%);
 	background: -webkit-radial-gradient(center, cover, #f8f8f8 0%, #667077 100%);
 }
+header { z-index: 1; }
+footer { z-index: 0; }
 header hgroup {
 	width: 100%;
 	bottom: 45%;
@@ -33,16 +36,14 @@ header hgroup h5 {
 	color: #667077;
 	text-shadow: 0 0 5px #999;
 }
-header nav {
+nav {
 	width: 100%;
 	height: 10%;
 	min-height: 80px;
-	bottom: 0;
 	position: fixed;
 	background: rgba(0,0,0,0.25);
-	border-top: 2px solid rgba(0,0,0,0.1);
 }
-header nav section {
+nav section {
 	color: #ccc;
 	width: 80%;
 	float: left;
@@ -51,7 +52,7 @@ header nav section {
 	text-align: right;
 	text-shadow: 1px 1px 1px #333;
 }
-header nav aside {
+nav aside {
 	color: #eee;
 	float: right;
 	margin: -30px 0;
@@ -63,3 +64,5 @@ header nav aside {
 	transform: rotate(90deg);
 	cursor: pointer;
 }
+header nav { bottom: 0; border-top: 2px solid rgba(0,0,0,0.1); }
+footer nav { top: 0; border-bottom: 2px solid rgba(0,0,0,0.1); }
