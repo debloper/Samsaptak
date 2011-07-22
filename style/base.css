@@ -1,4 +1,10 @@
 @charset "utf-8";
+@font-face {
+  font-family: 'Orbitron';
+  font-weight: 400;
+  font-style: normal;
+  src: url('http://themes.googleusercontent.com/font?kit=AdPJuXs8llXF_cK9FBhNug') format('woff');
+}
 
 html, body { width: 100%; height: 100%; }
 body {
@@ -27,5 +33,7 @@ header hgroup {
 }
 header hgroup h1 {
 	color: #90979f;
+	letter-spacing: 5px;
+	font-family: Orbitron;
 	text-shadow: -1px -1px 1px #666, 1px 1px 1px #eee, 0 0 10px #999;
 }
