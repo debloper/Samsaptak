@@ -27,13 +27,17 @@ header nav {
 }
 header hgroup {
 	width: 100%;
-	bottom: 50%;
+	bottom: 45%;
 	position: fixed;
 	text-align: center;
+	letter-spacing: 5px;
+	font-family: Orbitron, Verdana, Geneva, sans-serif;
 }
 header hgroup h1 {
 	color: #90979f;
-	letter-spacing: 5px;
-	font-family: Orbitron;
 	text-shadow: -1px -1px 1px #666, 1px 1px 1px #eee, 0 0 10px #999;
+}
+header hgroup h5 {
+	color: #667077;
+	text-shadow: 0 0 5px #999;
 }
