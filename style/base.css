@@ -18,7 +18,7 @@ header, footer {
 	background: -moz-radial-gradient(center, cover, #f8f8f8 0%, #667077 100%);
 	background: -webkit-radial-gradient(center, cover, #f8f8f8 0%, #667077 100%);
 }
-header { z-index: 1; }
+header { display: none; z-index: 1; }
 footer { z-index: 0; }
 header hgroup {
 	width: 100%;
@@ -66,3 +66,19 @@ nav aside {
 }
 header nav { bottom: 0; border-top: 2px solid rgba(0,0,0,0.1); }
 footer nav { top: 0; border-bottom: 2px solid rgba(0,0,0,0.1); }
+footer article {
+	width: 70%;
+	left: 0; right: 0;
+	margin: auto;
+	padding: 20% 0;
+	position: relative;
+}
+form input, textarea {
+	color: #666;
+	padding: 5px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 2px solid rgba(0,0,0,0.25);
+	background-color: rgba(255,255,255,0.25);
+	font: 20px Verdana, Geneva, sans-serif;
+}
