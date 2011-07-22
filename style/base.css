@@ -25,3 +25,7 @@ header hgroup {
 	position: fixed;
 	text-align: center;
 }
+header hgroup h1 {
+	color: #90979f;
+	text-shadow: -1px -1px 1px #666, 1px 1px 1px #eee, 0 0 10px #999;
+}
