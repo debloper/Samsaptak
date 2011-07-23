@@ -19,7 +19,7 @@ header, footer {
 	background: -moz-radial-gradient(center, cover, #f8f8f8 0%, #667077 100%);
 	background: -webkit-radial-gradient(center, cover, #f8f8f8 0%, #667077 100%);
 }
-header { display: none; z-index: 1; }
+header { z-index: 1; }
 footer { z-index: 0; }
 header hgroup {
 	width: 100%;
