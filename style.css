@@ -18,6 +18,10 @@ header, footer {
 	position: fixed;
 	background: -moz-radial-gradient(center, cover, #f8f8f8 0%, #667077 100%);
 	background: -webkit-radial-gradient(center, cover, #f8f8f8 0%, #667077 100%);
+	-webkit-transition: all 250ms ease-in;
+	-moz-transition: all 250ms ease-in;
+	-o-transition: all 250ms ease-in;
+	transition: all 250ms ease-in;
 }
 header { z-index: 1; }
 footer { z-index: 0; }
